@@ -1,4 +1,4 @@
-import { type ButtonProps } from "@/interface";
+import { type ButtonProps } from "@/interface";   // ✅ required import
 
 const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: ButtonProps) => {
   const backgroundColorClass = buttonBackgroundColor
